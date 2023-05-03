@@ -19,7 +19,7 @@ permissions:
 jobs:
   build:
 
-   runs-on: ubantu-16.04
+   runs-on: ubantu-18.04
    steps:
     - uses: actions/checkout@v3
     - name: Set up JDK 11
